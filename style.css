@@ -19,12 +19,15 @@ body {
 }
 .tags {
     display: flex;
-    
+    gap: 10px;
+    margin: 10px;
 }
 
-.tag {
-    padding: 3px;
+span {
+    padding-inline: 10px;
+    padding-block: 3px;
     border-radius: 20px;
-    border: 2px solid grey;
-    font-size: 14px;  
+    border: 2px solid rgb(188, 183, 183);
+    font-size: 14px;
+    color: rgb(94, 92, 92);  
 }
