@@ -31,3 +31,7 @@ span {
     font-size: 14px;
     color: rgb(94, 92, 92);  
 }
+
+h1 {
+    font-weight : 500;
+}
