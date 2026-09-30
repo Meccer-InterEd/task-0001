@@ -1,8 +1,10 @@
 * {
     margin: 0;
+    background-color: rgb(240, 240, 240);
 }
 
 body {
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,11 +23,14 @@ body {
     display: flex;
     gap: 10px;
     margin: 10px;
+    background-color: rgb(255, 255, 255);
+
 }
 
 span {
     padding-inline: 10px;
     padding-block: 3px;
+    background-color: rgb(255, 255, 255);
     border-radius: 20px;
     border: 2px solid rgb(188, 183, 183);
     font-size: 14px;
@@ -33,10 +38,44 @@ span {
 }
 
 h1 {
+    background-color: rgb(255, 255, 255);
     font-weight : 500;
+    margin-bottom: 15px;
 }
 
-.para {
+p {
+    background-color: rgb(255, 255, 255);
     width: 400px;
     color: grey;
+    font-size: 20px;
+}
+.readMore {
+    background-color: rgba(173, 210, 248, 0.4);
+    color: rgb(64, 104, 251);
+    border: none;
+    border-radius: 20px;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    }
+    .readMore:hover {
+        background-color: rgb(147, 198, 249);
+        color: rgb(20, 59, 201);
+    }
+
+.btn-Read {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+
+.mainPage{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 15px;
+    border: 2px solid rgb(188, 183, 183);
+    height: 500px
 }
