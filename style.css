@@ -57,6 +57,7 @@ p {
     width: 120px;
     height: 40px;
     cursor: pointer;
+    font-weight: bold;
     }
     .readMore:hover {
         background-color: rgb(147, 198, 249);
