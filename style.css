@@ -1,5 +1,19 @@
 .readMore {
-    background-color: #abccf0;
-    color: rgb(15, 15, 213);
-    
+    background-color: rgba(173, 210, 248, 0.4);
+    color: rgb(64, 104, 251);
+    border: none;
+    border-radius: 20px;
+    width: 120px;
+    height: 40px;
     }
+    .readMore:hover {
+        background-color: rgb(147, 198, 249);
+        color: rgb(20, 59, 201);
+    }
+
+.btn-Read {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
