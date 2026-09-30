@@ -35,3 +35,8 @@ span {
 h1 {
     font-weight : 500;
 }
+
+.para {
+    width: 400px;
+    color: grey;
+}
